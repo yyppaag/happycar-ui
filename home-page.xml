@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui namespace="AppHome_iPhone">
+    <linear orientation="v" class="wrapper">
+        <linear orientation="h" id="" class="inner-wrapper-40">
+            <view class="blue"></view>
+        </linear>
+        <linear orientation="h" id="" class="inner-wrapper-60">
+            <linear orientation="v">
+                <linear orientation="h" id="" class="inner-wrapper-45">
+                    <linear orientation="v" class="view">
+                        <image class="feature-icon" />
+                        <label class="feature-title">我要维修</label>
+                    </linear>
+                    <linear orientation="v" class="view">
+                        <image class="feature-icon" />
+                        <label class="feature-title">我要维修</label>
+                    </linear>
+                    <linear orientation="v" class="auto">
+                        <image class="feature-icon" />
+                        <label class="feature-title">我要维修</label>
+                    </linear>
+                </linear>
+                <linear orientation="v" id="" class="inner-wrapper-10">
+                    <view class="blue"></view>
+                </linear>
+                <linear orientation="h" id="" class="inner-wrapper-45">
+                    <linear orientation="v" class="view">
+                        <image class="feature-icon" />
+                        <label class="feature-title">我要维修</label>
+                    </linear>
+                    <linear orientation="v" class="view">
+                        <image class="feature-icon" />
+                        <label class="feature-title">我要维修</label>
+                    </linear>
+                    <linear orientation="v" class="auto">
+                        <image class="feature-icon" />
+                        <label class="feature-title">我要维修</label>
+                    </linear>
+                </linear>
+            </linear>
+        </linear>
+    </linear>
+    <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    .inner-wrapper-40 {
+        width: 100%;
+        height: 40%;
+    }
+    .inner-wrapper-60 {
+        width: 100%;
+        height: 60%;
+    }
+    .inner-wrapper-45 {
+        width: 100%;
+        height: 45%;
+    }
+    .inner-wrapper-10 {
+        width: 100%;
+        height: 8.5%;
+    }
+    .view {
+        width: 33%;
+        height: 100%;
+    }
+    .blue {
+        background-color: #007dbc;
+    }
+    .orange {
+        background-color: #ff5e22
+    }
+    .feature-icon {
+        width: 90%;
+        height: 80%;
+        background-color: #fff;
+        float: center;
+    }
+    .feature-title {
+        width: 90%;
+        height: 20%;
+        text-align: center;
+        v-text-align: center;
+        float:center;
+    }
+    </style>
+</ui>
+
